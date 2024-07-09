@@ -17,18 +17,18 @@ const background=new Sprite({
      width:1024,
     height:576
 })
-const shop=new Sprite({
-    position:{
-        x:700,
-        y:170
-    },
-    imageSrc:'./img/shop_animation.png',
-    width: 800,
-    height: 300,
-    scale:2,
-    maxframes:6
+// const shop=new Sprite({
+//     position:{
+//         x:700,
+//         y:170
+//     },
+//     imageSrc:'./img/shop_animation.png',
+//     width: 800,
+//     height: 300,
+//     scale:2,
+//     maxframes:6
     
-})
+// })
 const player=new Fighter({
     position: {
         x:100,
